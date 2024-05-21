@@ -1,0 +1,16 @@
+# patch: /path/to/GRAZPEDWRI-DX/data
+#path: '/content/Paper_code/GRAZPEDWRI-DX/data/'
+path: '/kaggle/working/Paper_code/GRAZPEDWRI-DX/data/'
+train: 'images/train_aug'
+val: 'images/valid'
+test: 'images/test'
+
+nc: 7
+names: ['fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray']
+
+roboflow:
+  workspace: brad-dwyer
+  project: aquarium-combined
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/brad-dwyer/aquarium-combined/dataset/2
